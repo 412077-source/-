@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>溫度轉換器</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>溫度轉換器</h1>
+    <p>請輸入任一溫度，系統會自動轉換另一種單位。</p>
+
+    <div class="card">
+      <label for="celsius">攝氏 (°C)</label>
+      <input id="celsius" type="number" step="any" placeholder="輸入攝氏溫度" />
+    </div>
+
+    <div class="card">
+      <label for="fahrenheit">華氏 (°F)</label>
+      <input id="fahrenheit" type="number" step="any" placeholder="輸入華氏溫度" />
+    </div>
+
+    <div class="result" id="result">等待輸入...</div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
